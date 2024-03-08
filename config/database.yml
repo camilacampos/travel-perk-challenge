@@ -10,12 +10,12 @@ default: &default
 
 development:
   <<: *default
-  database: changeme_development
+  database: travel_perk_development
 
 test:
   <<: *default
-  database: changeme_test
+  database: travel_perk_test
 
 production:
   <<: *default
-  database: changeme_production
+  database: travel_perk_production

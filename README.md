@@ -1,6 +1,6 @@
-# Rails Base Project (API only)
+# Travel Perk - Live Coding Inverview
 
-This project is meant to be a template for new rails projects (with only api configured). Just clone it or use it as a template to create your new repo.
+This is a project ready to be developed on the TravelPerk live coding interview.
 
 ## Setup
 ### System requirements
@@ -11,14 +11,12 @@ This project is meant to be a template for new rails projects (with only api con
 | Docker         | **24.0.6**  |
 | Docker-compose | **2.22.0**  |
 
-### Setup project name
-Before building and running the application, substitute every `changeme` with the project name.
 
 ### Running the application
 
 To build the system, run: `make build`
 
-Make sure the network changeme is created: `docker network create <project-network>`
+Make sure the network changeme is created: `docker network create travel_perk`
 
 To install and/or update dependencies, run: `make bundle-install`
 
