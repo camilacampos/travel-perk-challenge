@@ -42,3 +42,12 @@ make test-failures # run only previously failed tests
 make lint # run lint
 make lint-fix # run lint and automatically fix issues
 ```
+
+
+## Descripion
+
+:one: Api to look for the nearby places to eat/visit (using foursquare api).
+
+:two: Api to get the all the places ordered by the closest first from the given location.
+
+:three: Api to get the closest place to the given location.
